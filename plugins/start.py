@@ -106,11 +106,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
     [
-        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Anime_Warior"),
-        InlineKeyboardButton("ʙᴏᴛs ᴄʜᴀɴɴᴇʟ", url="https://t.me/The_Bots_Wallah"),
+        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/APM_MOVIES"),
+        InlineKeyboardButton("sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ", url="https://t.me/APM_WEBSERIES"),
     ],
     [
-                    InlineKeyboardButton("ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ", url = "https://t.me/ongoing_warior"),
+                    InlineKeyboardButton("ɴᴇᴛᴡᴏʀᴋ", url = "https://t.me/APM_MOVIES_NETWORK"),
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about")
         
     ]
@@ -144,7 +144,7 @@ async def not_joined(client: Client, message: Message):
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton(text="Request To Join", url=REQUEST)
+            InlineKeyboardButton(text="ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ", url=REQUEST)
         ]
     ]
     try:
